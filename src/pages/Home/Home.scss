@@ -1,8 +1,40 @@
-#Home_Design{
-    width: 100vw;
-    height: max-content;
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#Home_Design {
+  width: 100vw;
+  height: max-content;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    padding-top: 3vw;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.3rem;
+    background: linear-gradient(
+      60deg,
+      rgba(13, 110, 253, 1) 40%,
+      rgba(255, 193, 7, 1) 50%,
+      rgba(220, 53, 69, 1) 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .horizontal-line-home {
+    height: 8px;
+    background: linear-gradient(
+      60deg,
+      rgba(13, 110, 253, 1) 40%,
+      rgba(255, 193, 7, 1) 50%,
+      rgba(220, 53, 69, 1) 80%
+    );
+    width: 60vw;
+    position: relative;
+    right: 0vw;
+    border-radius: 100px;
+  }
 }
