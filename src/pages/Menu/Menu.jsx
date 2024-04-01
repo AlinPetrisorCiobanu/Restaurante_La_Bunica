@@ -16,15 +16,15 @@ export const Menu = () => {
         <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
           <Col>
             <Row>
-              <Col>
+              <Col className="pb-5">
                 <h5>Entrantes</h5>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Croquetas
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>1.1 Croquetas con Jamon y Queso</p>
                 </Row>
@@ -44,10 +44,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Patats
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>2.1 Patatas Fritas</p>
                 </Row>
@@ -67,10 +67,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Para Compartir
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>3.1 Aperitivo Tradiciónal</p>
                 </Row>
@@ -83,26 +83,26 @@ export const Menu = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <img className="img-right" src={entrante} alt="entrante" />
           </Col>
         </Row>
         <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
-          <Col>
+        <Row className="d-flex justify-content-center align-items-center text-center Menu_Design Column_Reverse">
+          <Col xs={12} md={6}>
             <img className="img-left" src={sarmale} alt="entrante" />
           </Col>
           <Col>
             <Row>
-              <Col>
+              <Col xs={12} md={6}>
                 <h5>Primeros</h5>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Menú
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Fabada</p>
                 </Row>
@@ -122,10 +122,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Especiales
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Sarmale</p>
                 </Row>
@@ -146,15 +146,15 @@ export const Menu = () => {
         <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
           <Col>
             <Row>
-              <Col>
+              <Col xs={12} md={6}>
                 <h5>Segundos</h5>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Menú
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Mici</p>
                 </Row>
@@ -174,10 +174,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Especiales
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Barbacoa XXL</p>
                 </Row>
@@ -196,26 +196,26 @@ export const Menu = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <img className="img-right" src={tochitura} alt="entrante" />
           </Col>
         </Row>
         <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
-          <Col>
+        <Row className="d-flex justify-content-center align-items-center text-center Menu_Design Column_Reverse">
+          <Col xs={12} md={6}>
             <img className="img-left" src={eclere} alt="entrante" />
           </Col>
           <Col>
             <Row>
-              <Col>
+              <Col xs={12} md={6}>
                 <h5>Postres</h5>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Menú
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Tarta de Queso</p>
                 </Row>
@@ -232,10 +232,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Especiales
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Eclere</p>
                 </Row>
@@ -253,15 +253,15 @@ export const Menu = () => {
         <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
           <Col>
             <Row>
-              <Col>
+              <Col xs={12} md={6}>
                 <h5>Bebidas</h5>
               </Col>
             </Row>
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Refrescos
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Cocacola (original, zero o light)</p>
                 </Row>
@@ -278,10 +278,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Vinos
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Tinto</p>
                 </Row>
@@ -301,10 +301,10 @@ export const Menu = () => {
             </Row>
             <hr />
             <Row>
-              <Col className="d-flex justify-content-center align-items-center">
+              <Col xs={12} md={6} className="d-flex justify-content-center align-items-center">
                 Cerveza
               </Col>
-              <Col className="text-start">
+              <Col xs={12} md={6} className="text-start">
                 <Row>
                   <p>Mahoo</p>
                 </Row>
@@ -323,7 +323,7 @@ export const Menu = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <img className="img-right" src={bebidas} alt="entrante" />
           </Col>
         </Row>

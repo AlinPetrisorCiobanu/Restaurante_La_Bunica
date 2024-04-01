@@ -14,7 +14,22 @@
     border-radius: 30% 0px 20px 20px;
     mask-image: linear-gradient(black 75%, transparent);
   }
+  
 }
+@media(max-width:430px){
+    .Menu_Design{
+        .img-right{
+        width: 80vw;
+    }
+    .img-left{
+        width: 80vw;
+    }
+    }
+    .Column_Reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  }
 .Footer {
   width: 100vw;
   height: 12vh;
