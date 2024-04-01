@@ -1,0 +1,15 @@
+.app-container {
+  color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./img/backgrouund.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  overflow: scroll;
+
+  .background-dark {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.352);
+  }
+}
