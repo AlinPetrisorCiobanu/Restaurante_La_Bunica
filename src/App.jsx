@@ -1,7 +1,7 @@
 import React from "react";
 import { Body } from "./pages/Body/Body";
 import { Nav_bar } from "./common/Nav-bar/Nav-bar";
-import "./index.scss";
+import "./styles.scss";
 
 function App() {
   return (
