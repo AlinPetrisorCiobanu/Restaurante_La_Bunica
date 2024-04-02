@@ -376,9 +376,6 @@ export const Menu = () => {
           </Col>
         </Row>
       </Container>
-      <Container fluid>
-        <h1>Footer</h1>
-      </Container>
     </>
   );
 };
