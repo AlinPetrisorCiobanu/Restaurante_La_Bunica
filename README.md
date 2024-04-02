@@ -27,7 +27,6 @@ Ahora, el proyecto ha sido totalmente remasterizado utilizando REACT, SASS y REA
 <p align="center">
   <img src="./src/img/1.png" alt="Proyecto Restaurante Remasterizado" width="700px">
   <img src="./src/img/2.png" alt="Proyecto Restaurante Remasterizado" width="700px">
-  <img src="./src/img/3.png" alt="Proyecto Restaurante Remasterizado" width="700px">
   <img src="./src/img/4.png" alt="Proyecto Restaurante Remasterizado" width="700px">
 </p>
 
