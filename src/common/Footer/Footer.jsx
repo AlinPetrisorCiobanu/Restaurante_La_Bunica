@@ -10,14 +10,18 @@ export const Footer = () => {
         fluid
         className="d-flex justify-content-center align-items-center text-center Footer_Design"
       >
-        <Col className="text-center" xs={12} md={4}>
-          <a href="#">@Términos y Condiciones</a>
-        </Col>
-        <Col className="text-center" xs={12} md={4}>
-          <a href="#">@Derecho de Autor</a>
-        </Col>
-        <Col className="text-center" xs={12} md={4}>
-          <a href="#">@Copyright</a>
+        <Col>
+          <Row>
+            <Col className="text-center pb-2 pt-2" xs={12} md={4}>
+              <a href="#">@Términos y Condiciones</a>
+            </Col>
+            <Col className="text-center pb-2 pt-2" xs={12} md={4}>
+              <a href="#">@Derecho de Autor</a>
+            </Col>
+            <Col className="text-center pb-2 pt-2" xs={12} md={4}>
+              <a href="#">@Copyright</a>
+            </Col>
+          </Row>
         </Col>
       </Container>
     </>
