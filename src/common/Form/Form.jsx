@@ -1,44 +1,41 @@
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Input } from "../Input/Input";
-import "./Form.scss";
 import { Button } from "../Button/Button";
+import "./Form.scss";
 
-export const Form = () => {
+export const Form = ({clickHandler}) => {
   return (
-    <Container className="d-flex justify-content-center align-items-center">
-      <Col xs={12} md={8}>
-        <Row className="d-flex justify-content-center align-items-center text-center">
-          <Col xs={12} md={6}>
-            <Input />Nombre
-          </Col>
-          <Col xs={12} md={6}>
-            <Input />Apellidos
-          </Col>
-        </Row>
-        <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center">
-          <Col xs={12} md={6}>
-            <Input />Email
-          </Col>
-          <Col xs={12} md={6}>
-            <Input />Phone
-          </Col>
-        </Row>
-        <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center">
-          <Col xs={12} md={8}>
-            <Input />Comentario:
-          </Col>
-        </Row>
-        <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center">
-            <Col xs={12}>
-                <Button />
+      <form action="#" className="d-flex justify-content-center align-items-center">
+        <Col xs={12} md={8}>
+          <Row className="d-flex justify-content-center align-items-center text-center">
+            <Col xs={12} md={6}>
+              <Input type={"text"} name={"name"} date={"Nombre"} />
             </Col>
-        </Row>
-      </Col>
-    </Container>
+            <Col xs={12} md={6}>
+              <Input type={"text"} name={"last_name"} date={"Apellidos"} />
+            </Col>
+          </Row>
+          <Row className="d-flex justify-content-center align-items-center text-center">
+            <Col xs={12} md={6}>
+              <Input type={"email"} name={"email"} date={"Email"} />
+            </Col>
+            <Col xs={12} md={6}>
+              <Input type={"tel"} name={""} date={"Phone"} />
+            </Col>
+          </Row>
+          <Row className="d-flex justify-content-center align-items-center text-center">
+            <Col xs={12} md={8}>
+              <Input type={"text"} name={"text"} date={"Comentario"} />
+            </Col>
+          </Row>
+          <hr />
+          <Row className="d-flex justify-content-center align-items-center text-center">
+            <Col xs={12}>
+              <Button name={"Enviar"} clickHandler={clickHandler} />
+            </Col>
+          </Row>
+        </Col>
+      </form>
   );
 };

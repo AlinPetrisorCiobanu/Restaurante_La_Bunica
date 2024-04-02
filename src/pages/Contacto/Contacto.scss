@@ -1,0 +1,24 @@
+.Contact_Design {
+  padding-top: 15vh;
+  height: 70vh;
+  width: 100vw;
+  .iframeMap {
+    border: 3px dashed black;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  img {
+    width: 100%;
+    border: 3px dashed black;
+    border-radius: 20px;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+}
