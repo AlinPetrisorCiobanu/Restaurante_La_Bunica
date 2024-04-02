@@ -1,8 +1,9 @@
-import Button from 'react-bootstrap/Button';
+import { Form } from "../../common/Form/Form";
+
 export const Contacto = () => {
   return (
     <>
-      <h1>Contacto</h1>
+      <Form />
     </>
   );
 };
