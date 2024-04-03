@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,6 +11,7 @@ import bebidas from "../../img/bebidas.avif";
 import "./Menu.scss";
 
 export const Menu = () => {
+  
   return (
     <>
       <Container fluid className="Container_Main_Menu ">
@@ -100,7 +102,7 @@ export const Menu = () => {
           </Col>
         </Row>
         <hr />
-        <Row>
+        <Row id="primeros">
           <Col xs={12} md={12} className="d-flex justify-content-center align-items-center text-center title_padding">
             <h4>Primeros</h4>
           </Col>
@@ -164,7 +166,7 @@ export const Menu = () => {
         </Row>
         <hr />
         <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
-          <Row>
+          <Row id='segundos'>
             <Col xs={12} md={12} className="pb-5">
               <h4>Segundos</h4>
             </Col>
@@ -229,7 +231,7 @@ export const Menu = () => {
           </Col>
         </Row>
         <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center title_padding">
+        <Row id='postres' className="d-flex justify-content-center align-items-center text-center title_padding">
           <Col xs={12} md={12}>
             <h4>Postres</h4>
           </Col>
@@ -286,7 +288,7 @@ export const Menu = () => {
           </Col>
         </Row>
         <hr />
-        <Row className="d-flex justify-content-center align-items-center text-center Menu_Design">
+        <Row id='bebidas' className="d-flex justify-content-center align-items-center text-center Menu_Design">
           <Row>
             <Col xs={12} md={12} className="pb-5">
               <h4>Bebidas</h4>

@@ -3,4 +3,15 @@
     a{
         color: aliceblue;
     }
+    .nav-menu{
+        margin-right: auto;
+        width: 100%;
+        justify-content: center;
+
+        a{
+            margin-right: 1vw;
+            margin-left: 1vw;
+            color: rgb(165, 208, 250);
+        }
+    }
 }
