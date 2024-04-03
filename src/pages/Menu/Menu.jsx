@@ -186,7 +186,7 @@ export const Menu = () => {
                   <p>* Tochitura (Carne de Cerdo)</p>
                 </Row>
                 <Row>
-                  <p>* Pastrama (Carne de Overja)</p>
+                  <p>* Pastrama (Carne de Oveja)</p>
                 </Row>
                 <Row>
                   <p>* Costillas</p>
@@ -255,7 +255,7 @@ export const Menu = () => {
                   <p>* Profiteroles con Chocolate</p>
                 </Row>
                 <Row>
-                  <p>* Frutas</p>
+                  <p>* Frutas a elegir</p>
                 </Row>
                 <Row>
                   <p>* Helado</p>
@@ -309,7 +309,7 @@ export const Menu = () => {
                   <p>* Fanta (Naranja, Limón o Uva)</p>
                 </Row>
                 <Row>
-                  <p>* Nestea (original, zero o maracya)</p>
+                  <p>* Nestea (original, zero o maracuya)</p>
                 </Row>
                 <Row>
                   <p>* Aquarius (Limón o Naranja)</p>
@@ -354,7 +354,7 @@ export const Menu = () => {
               </Col>
               <Col xs={12} md={6} className="text-start">
                 <Row>
-                  <p>* Mahoo</p>
+                  <p>* Mahou</p>
                 </Row>
                 <Row>
                   <p>* Coronita</p>
